@@ -254,7 +254,7 @@ function App() {
               {/* Original Screenshot */}
               <div className="border-t border-slate-200 pt-6">
                 <p className="text-sm text-slate-600 mb-3">Based on your screenshot:</p>
-                <img src={preview} alt="Original" className="w-full rounded-lg opacity-50" />
+                <img src={preview || ''} alt="Original" className="w-full rounded-lg opacity-50" />
               </div>
             </div>
 

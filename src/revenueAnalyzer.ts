@@ -166,7 +166,6 @@ function findRevenueNumbers(text: string, numbers: number[]): Array<{value: numb
     'gross', 'net', 'received', 'collected', 'turnover'
   ];
   
-  const lowerText = text.toLowerCase();
   
   // Score each number based on nearby keywords
   return numbers.map(num => {
